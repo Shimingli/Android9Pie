@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(MainActivity@this,SmartLinkifyActivity::class.java))
         })
 
+        btn_electricity_manager.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(MainActivity@this,ElectricityManagementActivity::class.java))
+        })
 
     }
 }

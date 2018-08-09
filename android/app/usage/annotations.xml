@@ -1,0 +1,5 @@
+<root>
+    <item name='android.app.usage.UsageStatsManager int getAppStandbyBucket()'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

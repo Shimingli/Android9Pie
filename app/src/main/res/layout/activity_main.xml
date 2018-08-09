@@ -4,12 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
    android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     tools:context="com.android.pie.MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Android 9 pie" />
+        android:text="Android 9 pie 正式版的更新的点" />
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btn_electricity_manager"
+        android:text="电量管理"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/btn_smart_linkify"
         android:text="文本识别与 Smart Linkify"

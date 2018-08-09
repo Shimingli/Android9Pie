@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.pie.ElectricityManagementActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="应用待机分组: Android P 新增加应用待机分组的功能，让系统根据用户的使用情况而限制应用调用CPU或网络等设备的资源 "
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text=" Android P 新增后台限制功能，如果应用出现 · Android Vitals· 里面所描述的行为，系统将提醒用户限制该应用的访问设备的资源"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text=" Android P 新增后台限制功能，如果应用出现 · Android Vitals· 里面所描述的行为，系统将提醒用户限制该应用的访问设备的资源"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

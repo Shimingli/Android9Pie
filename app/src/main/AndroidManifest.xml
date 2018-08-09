@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SmartLinkifyActivity" />
-        <activity android:name=".ElectricityManagementActivity"></activity>
+        <activity android:name=".ElectricityManagementActivity" />
+        <activity android:name=".SlicesAndAppActionsActivity"></activity>
     </application>
 
 </manifest>

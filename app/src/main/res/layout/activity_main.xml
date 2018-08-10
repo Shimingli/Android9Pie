@@ -44,4 +44,10 @@
         android:text="网络连接和位置"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_more_robust_performance"
+        android:text="更强劲的性能体现"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

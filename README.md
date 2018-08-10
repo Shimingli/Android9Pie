@@ -43,4 +43,6 @@ Android 9 终版新功能
    * Android 9 将 GlobalPlatform Open Mobile API 的实现添加至平台中！我们小渣渣估计实现不了  
    
    
+   *  ART 性能提升
+   *  Kotlin 优化
    

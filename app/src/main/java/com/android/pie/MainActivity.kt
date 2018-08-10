@@ -114,5 +114,15 @@ class MainActivity : AppCompatActivity() {
         btn_net_work_connection_location.setOnClickListener(View.OnClickListener {
             startActivity(Intent(MainActivity@this,NetworkConnectionAndLocationActivity::class.java))
         })
+
+        //更强劲的性能表现
+        btn_more_robust_performance.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(MainActivity@this,MoreRobustPerformanceActivity::class.java))
+        })
+       // ART 性能提升
+        // Android 9 借助 ART 运行时显著提高了应用的性能表现与运行效率。我们扩展了 ART 对执行特征的使用，以优化应用并减少已编译应用代码的内存占用量。ART 现可使用特征文件信息在设备上重写 DEX 文件，帮助多个常见应用的内存占用减少高达 11％。我们期望借此减少系统 DEX 内存使用量并加快应用启动时间。
+
+
+
     }
 }

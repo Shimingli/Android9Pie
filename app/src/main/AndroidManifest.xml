@@ -24,7 +24,8 @@
         <activity android:name=".SlicesAndAppActionsActivity" />
         <activity android:name=".UserSecurityAndPrivacyActivity" />
         <activity android:name=".NewSensoryExperienceActivity" />
-        <activity android:name=".NetworkConnectionAndLocationActivity"></activity>
+        <activity android:name=".NetworkConnectionAndLocationActivity" />
+        <activity android:name=".MoreRobustPerformanceActivity"></activity>
     </application>
 
 </manifest>

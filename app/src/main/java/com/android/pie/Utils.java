@@ -6,6 +6,11 @@ import android.annotation.TargetApi;
 import android.app.usage.UsageStatsManager;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.ImageDecoder;
+import android.graphics.Path;
+import android.graphics.PixelFormat;
+import android.graphics.PorterDuff;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
@@ -27,6 +32,7 @@ public class Utils {
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
             String serial = Build.getSerial();
         }
+
         return appStandbyBucket;
     }
 }

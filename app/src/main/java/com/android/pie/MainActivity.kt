@@ -105,6 +105,12 @@ class MainActivity : AppCompatActivity() {
 
          // 感官新体验: 摄像和影音的全面升级
 
+        btn_new_sensory_experience.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(MainActivity@this,NewSensoryExperienceActivity::class.java))
+        })
+
+
+
 
     }
 }

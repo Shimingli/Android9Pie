@@ -60,6 +60,7 @@ class UserSecurityAndPrivacyActivity : AppCompatActivity() {
         // Android 9 还让用户控制是否允许访问平台 build.serial 识别码 (它被 READ_PHONE_STATE 权限保护) 。
      //val vdd=   Build.getSerial()
 
+        //获取硬件序列号，如果可用的话。
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
             //注意需要在 高版本的 SDK的手机上运行
             val serial = Build.getSerial()

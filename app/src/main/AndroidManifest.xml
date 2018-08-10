@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.pie">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <application
         android:name=".MyApp"
         android:allowBackup="true"
@@ -19,7 +20,8 @@
         </activity>
         <activity android:name=".SmartLinkifyActivity" />
         <activity android:name=".ElectricityManagementActivity" />
-        <activity android:name=".SlicesAndAppActionsActivity"></activity>
+        <activity android:name=".SlicesAndAppActionsActivity" />
+        <activity android:name=".UserSecurityAndPrivacyActivity"></activity>
     </application>
 
 </manifest>

@@ -28,4 +28,10 @@
         android:text="Slices和App Actions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_user_security_and_privacy"
+        android:text="用户安全与隐私"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

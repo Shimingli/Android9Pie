@@ -97,6 +97,14 @@ class MainActivity : AppCompatActivity() {
 
 
         //用户安全与隐私
+        btn_user_security_and_privacy.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(MainActivity@this,UserSecurityAndPrivacyActivity::class.java))
+        })
+
+
+
+         // 感官新体验: 摄像和影音的全面升级
+
 
     }
 }

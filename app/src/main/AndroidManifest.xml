@@ -23,7 +23,8 @@
         <activity android:name=".ElectricityManagementActivity" />
         <activity android:name=".SlicesAndAppActionsActivity" />
         <activity android:name=".UserSecurityAndPrivacyActivity" />
-        <activity android:name=".NewSensoryExperienceActivity"></activity>
+        <activity android:name=".NewSensoryExperienceActivity" />
+        <activity android:name=".NetworkConnectionAndLocationActivity"></activity>
     </application>
 
 </manifest>

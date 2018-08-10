@@ -110,7 +110,9 @@ class MainActivity : AppCompatActivity() {
         })
 
 
-
-
+       //网络连接与位置
+        btn_net_work_connection_location.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(MainActivity@this,NetworkConnectionAndLocationActivity::class.java))
+        })
     }
 }

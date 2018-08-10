@@ -38,4 +38,10 @@
         android:text="感官新体验"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_net_work_connection_location"
+        android:text="网络连接和位置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

@@ -32,7 +32,7 @@ class NewSensoryExperienceActivity : AppCompatActivity() {
     }
     //对于图片和位图图像解码器
     private fun imageDecoderDemo() {
-        //一个的可以将PNG, JPEG, WEBP, GIF, or HEIF 格式的图片的转换成Drawable 或者Bitmap 对象的类。
+        //一个的可以将PNG, JPEG, WEBP, GIF, or HEIF 格式的图片的转换成Drawable 或者Bitmap 对象的类。ImageDecoder
 
         val file =File("filename")
         val source = ImageDecoder.createSource(file)

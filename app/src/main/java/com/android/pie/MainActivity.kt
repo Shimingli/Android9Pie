@@ -46,6 +46,8 @@ class MainActivity : AppCompatActivity() {
 //        https://developer.android.google.cn/ndk/guides/neuralnetworks/index.html
 //
 //        >> TensorFlow Lite
+
+
 //        https://www.tensorflow.org/mobile/tflite/
 
         // 人机交互
@@ -74,7 +76,7 @@ class MainActivity : AppCompatActivity() {
 //
 //        >> ML Kit
 //        https://developers.google.com/ml-kit/
-//     // Create new Person.  完蛋了，这下在安卓中Person类有了，不仅仅是一个了
+     // Create new Person.  完蛋了，这下在安卓中Person类有了，不仅仅是一个了
 //        val sender = Person()
 //                .setName(name)
 //                .setUri(uri)

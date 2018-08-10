@@ -12,6 +12,7 @@ import android.os.Build
 import android.os.CancellationSignal
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
+import android.security.keystore.StrongBoxUnavailableException
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.FragmentActivity
 import android.util.Log
@@ -77,7 +78,7 @@ class UserSecurityAndPrivacyActivity : AppCompatActivity() {
      * Android P 开发者预览版内置对 DNS over TLS 的支持，在 “网络和互联网” 设置中添加了隐私 DNS (Private DNS) 模式。
      */
     private fun DNSAndTLS() {
-         //DNS over TLS 模式自动为所有系统上的应用提供安全 DNS查询。不过，若应用未使用系统 API，而是自行运行 DNS 查询，它们必须确保在系统进行安全连接情况下，不发送不安全的 DNS 查询。应用可以调用新的 API
+         //DNS over TLS 模式自动为所有系统上的应用提供安全 DNS查询。不过，若应用未使用系统 API，而是自行运行 DNS 查询，它们必须确保在系统进行安全连接情况下，不发送不安全的 DNS 查询。应用可以调用新的 API!
 //        LinkProperties.isPrivateDnsActive()
 //        val lv=LinkProperties
 
@@ -88,7 +89,9 @@ class UserSecurityAndPrivacyActivity : AppCompatActivity() {
     //加入了一个新的 KeyStore 类 —— StrongBox，并提供相应的 API 来支持那些提供了防入侵硬件措施的设备，比如独立的 CPU，内存以及安全存储。您可以在 KeyGenParameterSpec 里进行设置，决定是否把密钥交给 StrongBox 安全芯片来保存。
     private fun keyStoreDemo() {
 
-     //   KeyStore
+//        StrongBox
+////
+////        StrongBox
 
     }
 

@@ -13,6 +13,7 @@ import android.os.CancellationSignal
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
 import android.security.keystore.StrongBoxUnavailableException
+import android.support.annotation.RequiresApi
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.FragmentActivity
 import android.util.Log
@@ -26,6 +27,7 @@ api的目录 ：https://developer.android.google.cn/reference/android/hardware/b
  */
 class UserSecurityAndPrivacyActivity : AppCompatActivity() {
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_security_and_privacy)
@@ -66,7 +68,6 @@ class UserSecurityAndPrivacyActivity : AppCompatActivity() {
             //注意需要在 高版本的 SDK的手机上运行
             val serial = Build.getSerial()
         }
-
 
 
 
